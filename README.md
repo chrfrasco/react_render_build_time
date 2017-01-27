@@ -1,15 +1,3 @@
-# 200 WOMEN
-
-This is the site for 200 WOMEN, and it is built using React 15.
-
-I have tried to stick to the BEM convention (block, element, modifier) convention
-for css.
-
-Base styles (header and layout styles) are delivered via css, 
-but styles for the 'item cards' are defined in javascript. This
-is to decrease the size of the initial load so the first meaningful
-paint happens quickly.
-
 The site is rendered at build time, then 'rehydrated' when the javascript bundle
 loads on the client machine.
 
